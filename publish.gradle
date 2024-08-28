@@ -1,26 +1,10 @@
 apply plugin: 'maven'
 apply plugin: 'maven-publish'
-apply plugin: 'com.jfrog.bintray'
 
 
 group = metadata.groupId
 version = metadata.version
 
-bintray {
-    user = findProperty('bintrayUser')
-    key = findProperty('bintrayKey')
-    configurations = ['archives']
-    publish = true
-    pkg {
-        repo = 'maven'
-        name = archivesBaseName
-        desc = metadata.desc
-        userOrg = metadata.userOrg
-        websiteUrl = metadata.website
-        vcsUrl = metadata.repository
-        licenses = metadata.licences
-    }
-}
 
 task autoBundleJavadoc(type: Javadoc) {
     failOnError false
