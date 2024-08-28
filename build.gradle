@@ -37,6 +37,7 @@ allprojects {
         maven {
             url m2Repository
         }
+        mavenCentral()
     }
 }
 
