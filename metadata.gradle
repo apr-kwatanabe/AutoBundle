@@ -3,14 +3,14 @@ ext {
             userOrg: 'yatatsu',
             groupId: 'com.github.yatatsu',
             desc: 'AutoBundle generates boilerplate code for field binding with android.os.Bundle',
-            website: 'https://github.com/yatatsu/AutoBundle',
-            repository: 'git@github.com:yatatsu/AutoBundle.git',
-            version: '5.0.2',
+            website: 'https://github.com/apr-kwatanabe/AutoBundle',
+            repository: 'git@github.com:apr-kwatanabe/AutoBundle.git',
+            version: '5.0.3',
             licences: ['Apache-2.0'],
             developer: {
-                id 'yatatsu'
-                name 'Tatsuya KITAGAWA'
-                email 'yatatsukitagawa@gmail.com'
+                id 'apr-kwatanabe'
+                name 'apr-kwatanabe'
+                email 'kwatanabe@appirits.com'
             }
     ]
 }
